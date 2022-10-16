@@ -1,0 +1,104 @@
+:root {
+  --dark-mode-color: linear-gradient(to right, #0f2027, #203a43, #0f2027);
+  --light-mode-color: linear-gradient(to right, #ece9e6, #ffffff, #ece9e6);
+}
+
+body {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: var(--light-mode-color);
+}
+
+body.dark-mode {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: var(--dark-mode-color);
+}
+
+.navbar.navbar-light {
+  background: var(--light-mode-color);
+}
+
+.navbar.navbar-dark {
+  background: var(--dark-mode-color);
+}
+
+.logo.dark-mode {
+  color: white;
+}
+
+.logo {
+  width: 200px;
+}
+
+.hover-transform {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hover-transform:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.hover-transform-z {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hover-transform-z:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: translateZ(-10px) scale(1.05);
+}
+
+.opacity-hover:hover {
+  opacity: 0.6;
+}
+
+button.custom-btn {
+  background-color: coral;
+  border: 6px outset rgba(255, 255, 255, 0.45);
+}
+
+button.custom-btn#my-button:active {
+  background-color: rgba(0, 184, 249, 0.7);
+  border: 6px inset rgba(255, 255, 255, 0.45);
+}
+
+button.custom-btn:hover {
+  background-color: rgba(0, 184, 249, 0.7);
+  border: 6px outset rgba(255, 255, 255, 0.45);
+}
+
+a.custom-underline:after {
+  content: "";
+  display: block;
+  width: 0%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(0, 0, 0, 0.3);
+  height: 2px;
+  margin: 2px auto 0;
+}
+
+a.custom-underline:hover:after {
+  width: 90%;
+}
+
+a.custom-underline.dark-mode::after {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+textarea#message {
+  height: 250px;
+}
+
+textarea.custom-border-radius {
+  border-radius: 2rem;
+}
+
+div.container.custom-max-width {
+  max-width: 1200px;
+}

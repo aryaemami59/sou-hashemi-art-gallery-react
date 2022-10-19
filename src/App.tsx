@@ -1,19 +1,19 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap";
-import "bootstrap-social";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-social";
 import { FC, memo } from "react";
 import "./App.css";
-import Footer from "./features/components/index/Footer";
-import Header from "./features/components/index/Header";
-import MainContainer from "./features/components/index/MainContainer";
-import Nav from "./features/components/index/Nav";
+import HomePage from "./features/components/home/HomePage";
+import Footer from "./features/shared/Footer";
+import Header from "./features/shared/Header";
+import Nav from "./features/shared/Nav";
 
 const App: FC = () => (
   <div>
     <Header />
     <Nav />
-    <MainContainer />
+    <HomePage />
     <Footer />
   </div>
 );

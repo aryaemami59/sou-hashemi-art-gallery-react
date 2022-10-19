@@ -1,6 +1,6 @@
 import { FC, memo } from "react";
 
-const MainContainer: FC = () => (
+const HomePage: FC = () => (
   <div className="container px-3 py-5">
     <div className="row row-content align-items-start">
       <div className="col-md-3 mx-auto overflow-hidden p-0 h-auto shadow w-auto">
@@ -107,4 +107,4 @@ const MainContainer: FC = () => (
   </div>
 );
 
-export default memo(MainContainer);
+export default memo(HomePage);

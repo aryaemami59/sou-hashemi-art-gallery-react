@@ -6,12 +6,12 @@ const Header: FC = () => (
       <div className="row">
         <div className="col-4 col-sm-3 col-md-2 align-self-center">
           <img
-            src={require("../../shared/img/logos/SH1.png")}
+            src={require("./img/logos/SH1.png")}
             alt="logo"
             className="logo"
           />
-      </div>
         </div>
+      </div>
     </div>
   </header>
 );

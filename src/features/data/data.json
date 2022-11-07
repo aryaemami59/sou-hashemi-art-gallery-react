@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Allegorical Art",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem delectus esse voluptas voluptate voluptatibus quia. Debitis maiores explicabo error fugit iste, repellat tenetur, tempore temporibus molestias, recusandae est accusantium nesciunt.",
+      "images": [{ "id": 1, "path": "allegorical/1.jpg" }],
+      "thumbnail": "allegorical/1.jpg",
+      "route": "allegorical"
+    },
+    {
+      "id": 2,
+      "title": "Watercolor",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem delectus esse voluptas voluptate voluptatibus quia. Debitis maiores explicabo error fugit iste, repellat tenetur, tempore temporibus molestias, recusandae est accusantium nesciunt.",
+      "images": [{ "id": 1, "path": "watercolor/1.jpg" }],
+      "thumbnail": "watercolor/1.jpg",
+      "route": "watercolor"
+    },
+    {
+      "id": 3,
+      "title": "Soap Art",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem delectus esse voluptas voluptate voluptatibus quia. Debitis maiores explicabo error fugit iste, repellat tenetur, tempore temporibus molestias, recusandae est accusantium nesciunt.",
+      "images": [{ "id": 1, "path": "pastel/1.jpg" }],
+      "thumbnail": "pastel/1.jpg",
+      "route": "soap"
+    },
+    {
+      "id": 4,
+      "title": "Acrylic",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem delectus esse voluptas voluptate voluptatibus quia. Debitis maiores explicabo error fugit iste, repellat tenetur, tempore temporibus molestias, recusandae est accusantium nesciunt.",
+      "images": [{ "id": 1, "path": "acrylic/1.jpg" }],
+      "thumbnail": "acrylic/1.jpg",
+      "route": "acrylic"
+    }
+  ]
+}

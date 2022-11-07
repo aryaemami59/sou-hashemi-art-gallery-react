@@ -1,8 +1,17 @@
 import { FC, memo } from "react";
+import ContentRow from "./ContentRow";
+import data from "../../data/data.json";
 
 const HomePage: FC = () => (
   <div className="container px-3 py-5">
-    <div className="row row-content align-items-start">
+    {data.items.map(item => (
+      <ContentRow
+        key={item.id}
+        {...item}
+      />
+    ))}
+    {/* <ContentRow /> */}
+    {/* <div className="row my-5 align-items-start">
       <div className="col-md-3 mx-auto overflow-hidden p-0 h-auto shadow w-auto">
         <a href="allegorical.html">
           <img
@@ -23,8 +32,8 @@ const HomePage: FC = () => (
           molestias, recusandae est accusantium nesciunt.
         </p>
       </div>
-    </div>
-    <div className="row row-content my-5 align-items-start">
+    </div> */}
+    {/* <div className="row my-5 align-items-start">
       <div className="col-md-3 mx-auto overflow-hidden p-0 h-auto shadow w-auto">
         <a href="waterColorPaintings.html">
           <img
@@ -44,7 +53,7 @@ const HomePage: FC = () => (
         </p>
       </div>
     </div>
-    <div className="row row-content my-5 align-items-start">
+    <div className="row my-5 align-items-start">
       <div className="col-md-3 mx-auto overflow-hidden p-0 h-auto shadow w-auto">
         <a href="soap.html">
           <img
@@ -64,7 +73,7 @@ const HomePage: FC = () => (
         </p>
       </div>
     </div>
-    <div className="row row-content my-5 align-items-start">
+    <div className="row my-5 align-items-start">
       <div className="col-md-3 mx-auto overflow-hidden p-0 h-auto shadow w-auto">
         <a href="pastel.html">
           <img
@@ -84,7 +93,7 @@ const HomePage: FC = () => (
         </p>
       </div>
     </div>
-    <div className="row row-content my-5 align-items-start">
+    <div className="row my-5 align-items-start">
       <div className="col-md-3 mx-auto overflow-hidden p-0 h-auto shadow w-auto">
         <a href="acrylic.html">
           <img
@@ -103,7 +112,7 @@ const HomePage: FC = () => (
           ratione velit pariatur eos.
         </p>
       </div>
-    </div>
+    </div> */}
   </div>
 );
 
